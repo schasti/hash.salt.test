@@ -13,6 +13,8 @@ public class test1 {
         String pass="hejmeddig";
        String hash= generateHash(pass);
        String hash2 = generateHash("hejmeddig");
+       byte[] salt = getSalt();
+        System.out.println(salt[4]);
         System.out.println(hash);
         System.out.println(hash2);
 
