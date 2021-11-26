@@ -36,7 +36,9 @@ public class test1 {
         System.out.println("hash2:   "+hash2);
         System.out.println("saltgemt:   "+saltgemt);
 
-
+        int[] hej = {1,2,3};
+        String hejtal = String.valueOf(hej[2]);
+        System.out.println(hejtal);
 
        // System.out.println(hash2);
 
